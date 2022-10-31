@@ -1,21 +1,30 @@
-import { View, Image, Text, StyleSheet } from 'react-native';
+import {
+  View,
+  Image,
+  Text,
+  StyleSheet,
+  useWindowDimensions,
+} from 'react-native';
 
 import Title from '../components/ui/Title';
 import PrimaryButton from '../components/ui/PrimaryButton';
 import Colors from '../constants/colors';
 
 function GameOverScreen({ roundsNumber, userNumber, onStartNewGame }) {
+  const {width, height} = useWindowDimensions()
   return (
     <View style={styles.rootContainer}>
       <Title>GAME OVER!</Title>
-      <View style={styles.imageContainer}>
-        <Image
-          style={styles.image}
-          source={require('../assets/images/success.png')}
-        />
-      </View>
+
+        <View style={ [styles.imageContainer, (width - height <0) ? {width:"100%"} : {height:'50%'}] }>
+          <Image
+            style={styles.image}
+            source={require('../assets/images/success.png')}
+          />
+        </View>
       <Text style={styles.summaryText}>
-        Your phone needed <Text style={styles.highlight}>{roundsNumber}</Text>{' '}
+        Your phone needed <Text
+        style={styles.highlight}>{roundsNumber}</Text>{' '}
         rounds to guess the number{' '}
         <Text style={styles.highlight}>{userNumber}</Text>.
       </Text>
@@ -34,13 +43,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   imageContainer: {
-    width: 300,
-    height: 300,
-    borderRadius: 150,
+    borderRadius:350,
+    aspectRatio:1,
     borderWidth: 3,
     borderColor: Colors.primary800,
     overflow: 'hidden',
-    margin: 36,
+    margin:10
   },
   image: {
     width: '100%',
