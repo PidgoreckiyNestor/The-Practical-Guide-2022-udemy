@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faae8494-fb24-4f81-ac0f-b2bbebc5e8e9" name="Changes" comment="1) status bar&#10;2) dimensions, useWindowDimensions&#10;3) keyboard avoiding view" />
+    <list default="true" id="faae8494-fb24-4f81-ac0f-b2bbebc5e8e9" name="Changes" comment="added flatList with 2 columns that contain moc data">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CategoriesGridTail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/globalVariables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/CategoriesScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Section_5_Building_Adaptive_User_Interfaces_Adapt_to_Platform_Device_Sizes" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +50,8 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/andrewvovk/Desktop/myLearning/udemy/my-app",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "MTConfigurable",
+    "settings.editor.selected.configurable": "editing.templates",
+    "ts.external.directory.path": "/Users/andrewvovk/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.3739.57/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -51,6 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1667212833340</updated>
       <workItem from="1667212835684" duration="7462000" />
+      <workItem from="1667229605451" duration="845000" />
+      <workItem from="1667298450267" duration="2326000" />
+      <workItem from="1667384372309" duration="2934000" />
     </task>
     <task id="LOCAL-00001" summary="react native guess number game">
       <created>1667213137665</created>
@@ -66,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667227561593</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mock data">
+      <created>1667230217595</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230217595</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +106,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Section_5_Building_Adaptive_User_Interfaces_Adapt_to_Platform_Device_Sizes" />
+                        <option value="Section_6_React_Native_Navigation_with_React_Navigation_MEALS_APP" />
                       </list>
                     </value>
                   </entry>
@@ -98,6 +121,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react native guess number game" />
     <MESSAGE value="1) status bar&#10;2) dimensions, useWindowDimensions&#10;3) keyboard avoiding view" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) status bar&#10;2) dimensions, useWindowDimensions&#10;3) keyboard avoiding view" />
+    <MESSAGE value="mock data" />
+    <MESSAGE value="added flatList with 2 columns that contain moc data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flatList with 2 columns that contain moc data" />
   </component>
 </project>
