@@ -3,10 +3,10 @@ import React from 'react';
 import { Pressable, Text, View, StyleSheet } from 'react-native';
 import { IS_ANDROID } from '../globalVariables';
 
-const CategoriesGridTail = ({ title, color }) => {
+const CategoriesGridTail = ({ title, color, onPress }) => {
   return (
     <View style={[styles.gridItem]}>
-      <Pressable android_ripple={{color:'#ccc'}} style={({pressed}) =>[
+      <Pressable onPress={onPress} android_ripple={{color:'#ccc'}} style={({pressed}) =>[
         styles.button, pressed ? styles.pressedButton : null]
       }>
         <View style={[styles.innerContainer, {backgroundColor: color}]}>
